@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules"; // Adjust import for Swiper 8+
 import "swiper/css";
 import "swiper/css/pagination";
-import jambtes1 from "../assets/jambtes1.jpg"
+import jambtes1 from "../assets/Jambtes1.jpg"
 import jambtes2 from "../assets/jambtes2.jpg"
 import jambtest3 from "../assets/jambtest3.jpg"
 import jambrecord from "../assets/jambtest3.jpg"

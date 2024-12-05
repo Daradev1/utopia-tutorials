@@ -30,7 +30,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-// import jambtes1 from "../assets/jambtes1.jpg"
-// import jambtes2 from "../assets/jambtes2.jpg"
-// import jambtest3 from "../assets/jambtest3.jpg"
