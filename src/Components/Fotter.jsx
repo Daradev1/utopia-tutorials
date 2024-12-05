@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -9,40 +9,35 @@ const Footer = () => {
         <ul className="flex justify-center space-x-8 mb-6">
           <li>
             <a
-              href="#"
-              className="hover:text-primaryPurple transition"
+              href="https://t.me/utopiatutorial_ng"
+              className="hover:text-primaryPurple transition gap-1 flex text-sm decoration-none"
               aria-label="Facebook"
+              target="_blank"
             >
-              <FaFacebook className="text-2xl" />
+              <FaTelegram className="text-2xl" /> Telegram channel
+            </a>
+          </li>
+          <li>
+          <a
+              href=" https://whatsapp.com/channel/0029VaeVj0qKgsNksxKKqF0c"
+              className="hover:text-primaryPurple transition gap-1 flex text-sm decoration-none"
+              aria-label="Facebook"
+              target="_blank"
+            >
+              <FaWhatsapp className="text-2xl" /> Whatsapp Channel
             </a>
           </li>
           <li>
             <a
-              href="#"
-              className="hover:text-primaryPurple transition"
-              aria-label="Twitter"
-            >
-              <FaTwitter className="text-2xl" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="hover:text-primaryPurple transition"
+              href="https://www.facebook.com/profile.php?id=61553396266455&mibextid=ZbWKwL"
+              className="hover:text-primaryPurple transition  gap-1 flex text-sm decoration-none"
               aria-label="Instagram"
+              target="_blank"
             >
-              <FaInstagram className="text-2xl" />
+              <FaFacebook className="text-2xl" /> Facebook Channel
             </a>
           </li>
-          <li>
-            <a
-              href="#"
-              className="hover:text-primaryPurple transition"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin className="text-2xl" />
-            </a>
-          </li>
+         
         </ul>
         <p className="text-sm text-gray-400">
           © {new Date().getFullYear()} Utopia Tutorials. All Rights Reserved.

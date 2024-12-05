@@ -34,6 +34,17 @@ const Utmeimages = [
      moreTestimonies4,
    ];
 const Utme = () => {
+     const handleEnroll = () => {
+          const message = encodeURIComponent(
+            "Hello! My name is ___ (insert your name). I want to make payment for Utopia JAMB class"
+          );
+      
+          // WhatsApp API link with pre-filled message
+          const whatsappLink = `https://wa.me/2348123456789?text=${message}`; // Replace 2348123456789 with the WhatsApp number
+      
+          // Redirect to WhatsApp
+          window.open(whatsappLink, "_blank");
+        };
   return (
     <div>
          <div className="my-10 px-2">
@@ -76,7 +87,7 @@ Phase 1 tagged: Revelation Class is N5000 [6th January - 16th March, 2025]
 Total Value: N20 000 monthly
 Today's Price: N5000 monthly
      </p>
-     <div className='w-full justify-center flex'><EnrollBtn text={'Pay Now'}/></div>
+     <div className='w-full justify-center flex'><EnrollBtn text={'Pay Now'} onclick={handleEnroll} /></div>
      </div>
      <p className=' md:w-[70%] m-auto text-gray-600 text-normal md:text-lg text-center mt-2 mb-8'>
      But, is N5000 not too much in this Jagaban's economic era? Well, let's do the calculations together
