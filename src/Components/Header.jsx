@@ -10,7 +10,7 @@ const Header = () => {
     );
 
     // WhatsApp API link with pre-filled message
-    const whatsappLink = `https://wa.me/2348123456789?text=${message}`; // Replace 2348123456789 with the WhatsApp number
+    const whatsappLink = `https://wa.me/2348145123497?text=${message}`; // Replace 2348123456789 with the WhatsApp number
 
     // Redirect to WhatsApp
     window.open(whatsappLink, "_blank");

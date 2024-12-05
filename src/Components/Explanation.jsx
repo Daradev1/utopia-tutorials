@@ -1,6 +1,6 @@
 import React from 'react'
 import Darasimi from "../assets/DaraTestimoni.jpg"
-import Yazid from "../assets/yazid.jpg"
+import Yazid from "../assets/Yazid.jpg"
 import testimonies from "../assets/Testimonies.jpg"
 import TestimonialSlider from './Slider'
 import ImageSlider from './Slider'
