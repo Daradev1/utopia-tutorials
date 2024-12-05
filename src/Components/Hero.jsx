@@ -1,7 +1,19 @@
 import React from 'react'
 import jambBg from '../assets/jambBg.jpg';
+import EnrollBtn from './EnrollBtn';
 
 const Hero = () => {
+  const handleEnroll = () => {
+    const message = encodeURIComponent(
+      "Hello! My name is ___ (insert your name). I want to make payment for Utopia JAMB class"
+    );
+
+    // WhatsApp API link with pre-filled message
+    const whatsappLink = `https://wa.me/2348145123497?text=${message}`; // Replace 2348123456789 with the WhatsApp number
+
+    // Redirect to WhatsApp
+    window.open(whatsappLink, "_blank");
+  };
   return (
     <div>
      <div
@@ -19,9 +31,9 @@ const Hero = () => {
     <br /><br />
     <p className='text-lg md:text-2xl mb-6'>Here's a top secret for scoring 300+...</p>
     </p>
-    <button className="bg-primaryPurple text-white px-6 py-3 rounded-lg hover:bg-darkPurple transition">
-      Get Started
-    </button>
+    <div>
+        <EnrollBtn onclick={handleEnroll}  text={"Enroll Now"}/>
+    </div>
   </div>
 </div>
  

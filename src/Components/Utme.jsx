@@ -52,7 +52,7 @@ const Utme = () => {
      <p className='w-[80%] md:w-[60%] m-auto text-gray-600 text-normal md:text-lg text-center mb-2'>
      Our Post UTME results was fireful🚀
 A student at Utopia smashed 29.25/30 in UNILAG Post UTME.
-So far in 2024, we have recorded about 21 MBBS admissions and over 80 admissions in total.
+So far in 2024, we have recorded about 12 MBBS admissions and over 80 admissions in total.
 <br />
 Check the slides below for some of our 2024 POST-UTME testimonials👇
      </p>
@@ -78,14 +78,17 @@ So far in 2024, we have recorded 9 students who smashed 300+ and 87 students sco
 This year we're set again to organize the same UTME class that made students from Utopia score 300+. To achieve this we're running our classes in two phases to enable us finish the entire syllabus twice before your exam.
 Phase 1 tagged: Revelation Class is N5000 [6th January - 16th March, 2025]
      </p>
-     <h2 className='font-bold text-lg my-2 md:text-2xl text-darkPurple text-center'>
+     <h2 className='font-bold text-xl mt-10 my-2 md:text-2xl text-darkPurple text-center'>
       ENROLL NOW
      </h2>
      <p className=' md:w-[70%] m-auto text-gray-600 text-normal md:text-lg text-center mt-2 mb-8'>
      There are two special bonus offer for you towards the end of this page. But you will only get it if you join the UTME class today.
-
-Total Value: N20 000 monthly
-Today's Price: N5000 monthly
+<br /> <br /> <br />
+<span className='text-bold line-through text-gray-700'>
+Total Value: N20,000 monthly
+</span>
+<br />
+<span className='text-bold text-lg md:text-xl  text-gray-700'>Today's Price: N5000 monthly</span>
      </p>
      <div className='w-full justify-center flex'><EnrollBtn text={'Pay Now'} onclick={handleEnroll} /></div>
      </div>
