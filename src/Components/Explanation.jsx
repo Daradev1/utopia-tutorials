@@ -2,13 +2,12 @@ import React from 'react'
 import Darasimi from "../assets/DaraTestimoni.jpg"
 import Yazid from "../assets/Yazid.jpg"
 import testimonies from "../assets/Testimonies.jpg"
-import TestimonialSlider from './Slider'
 import ImageSlider from './Slider'
 
-import jambtes1 from "../assets/jambtes1.jpg"
+import jambtes1 from "../assets/Jambtes1.jpg" 
 import jambtes2 from "../assets/jambtes2.jpg"
 import jambtest3 from "../assets/jambtest3.jpg"
-import jambrecord from "../assets/jambtest3.jpg"
+import jambrecord from "../assets/jambrecord.jpg"
 import Utme from './Utme'
 import Bonus from './Bonus'
 import UpcomingPrograms from './UpcomingPrograms'
