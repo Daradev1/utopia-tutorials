@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../assets/logo.jpg"
 import EnrollBtn from './EnrollBtn'
-import Countdown from './Countdown'
+
 const Header = () => {
 
   const handleEnroll = () => {
